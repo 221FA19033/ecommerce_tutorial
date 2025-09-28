@@ -1,0 +1,13 @@
+/* index.css */
+* { box-sizing: border-box; }
+body { font-family: Inter, Arial, sans-serif; margin: 0; background: #f6f8fb; color: #222; }
+.container { max-width: 1100px; margin: 28px auto; padding: 0 16px; }
+.nav { background: #1f2937; padding: 12px 16px; color: white; display:flex; gap:12px; align-items:center; }
+.nav a { color: white; text-decoration: none; margin-right: 12px; }
+.card { background: white; border-radius: 10px; padding: 16px; box-shadow: 0 6px 18px rgba(16,24,40,0.06); }
+.table { width:100%; border-collapse: collapse; }
+.table th, .table td { padding: 10px 12px; border-bottom: 1px solid #eee; text-align:left; }
+.btn { padding: 8px 12px; border-radius: 8px; background: linear-gradient(90deg,#4b6cb7,#182848); color: white; border: none; cursor:pointer; }
+.form-input, textarea { width:100%; padding:8px 10px; margin-bottom:10px; border-radius:6px; border:1px solid #ddd; }
+.hstack { display:flex; gap:12px; align-items:center; }
+.small-muted { color:#6b7280; font-size:0.95rem; }

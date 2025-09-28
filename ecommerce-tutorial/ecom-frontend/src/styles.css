@@ -1,0 +1,77 @@
+/* Custom dashboard buttons */
+.custom-btn {
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.products-btn {
+  background-color: #0077b6;
+}
+
+.products-btn:hover {
+  background-color: #0096c7;
+}
+
+.customers-btn {
+  background-color: #0a9396;
+}
+
+.customers-btn:hover {
+  background-color: #14b8b8;
+}
+
+.cart-btn {
+  background-color: #ee6c4d;
+}
+
+.cart-btn:hover {
+  background-color: #ff7f50;
+}
+
+.edit-btn {
+  background-color: #3a86ff;
+}
+
+.edit-btn:hover {
+  background-color: #5aa0ff;
+}
+
+.delete-btn {
+  background-color: #e63946;
+}
+
+.delete-btn:hover {
+  background-color: #ff5f6d;
+}
+
+.addcart-btn {
+  background-color: #ffbe0b;
+  color: black;
+}
+
+.addcart-btn:hover {
+  background-color: #ffc700;
+}
+
+.save-btn {
+  background-color: #06d6a0;
+  color: black;
+}
+
+.save-btn:hover {
+  background-color: #2ce5b8;
+}
+
+.cancel-btn {
+  background-color: #adb5bd;
+  color: black;
+}
+
+.cancel-btn:hover {
+  background-color: #cfcfcf;
+}
