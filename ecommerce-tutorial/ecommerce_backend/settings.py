@@ -63,7 +63,7 @@ MIDDLEWARE = [
 
 ]
 
-ROOT_URLCONF = 'ecommerce_backend.urls'
+ROOT_URLCONF = 'urls'
 CORS_ALLOW_ALL_ORIGINS = True
 
 TEMPLATES = [
@@ -81,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ecommerce_backend.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
